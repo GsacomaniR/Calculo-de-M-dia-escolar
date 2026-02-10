@@ -8,7 +8,7 @@ int main(void) {
         int amount;
         float sum = 0, average;
 
-        printf("What's you grade? (Max %d) ", MAX_GRADE);
+        printf("How many grades do you have? (Max %d) ", MAX_GRADE);
         scanf("%d", &amount);
 
         if (amount < 0 || amount > MAX_GRADE) {
